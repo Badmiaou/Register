@@ -164,6 +164,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="MDN-T5-dTx"/>
                     </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="ljl-g7-oFK" id="qJW-GI-MVn"/>
+                        <outlet property="genderLabel" destination="7Dh-t6-9xo" id="7b0-0s-ejW"/>
+                        <outlet property="nameLabel" destination="elj-rC-BCK" id="hTG-Jz-190"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mam-HE-VQq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
