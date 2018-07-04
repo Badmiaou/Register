@@ -85,8 +85,8 @@
                                     <action selector="RegisterAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="10V-Wy-ff1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jY9-pA-yyT">
-                                <rect key="frame" x="166" y="452" width="42" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jY9-pA-yyT">
+                                <rect key="frame" x="16" y="452" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -103,7 +103,7 @@
                         <outlet property="genderOutlet" destination="t8x-R3-wo9" id="4Zc-kV-gTh"/>
                         <outlet property="lastNameOutlet" destination="jl0-qH-w8h" id="508-aF-RgX"/>
                         <outlet property="statusLabel" destination="jY9-pA-yyT" id="dlq-4o-4VF"/>
-                        <segue destination="MHN-85-kKI" kind="show" identifier="" id="HYc-fE-LXr"/>
+                        <segue destination="MHN-85-kKI" kind="show" identifier="Profile" id="HYc-fE-LXr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

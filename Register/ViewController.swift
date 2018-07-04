@@ -28,7 +28,22 @@ class ViewController: UIViewController {
     
     @IBAction func RegisterAction(_ sender: Any) {
         if(firstNameOutlet.text == ""){
-            
+            statusLabel.text = "Pleese write your first name"
+        }else if (lastNameOutlet.text == "") {
+            statusLabel.text = "Pleese write your last name"
+        }else if (addressOutlet.text == ""){
+            statusLabel.text = "Pleese write your address"
+        }else{
+            performSegue(withIdentifier: "Profile", sender: self)
+        }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Profile" {
+            let destVC = segue.destination as! ProfileViewController
+            destVC.firstName = firstNameOutlet.text!
+            destVC.lastName = lastNameOutlet.text!
+            destVC.address = addressOutlet.text!
+            destVC.gender = genderOutlet.selectedSegmentIndex
         }
     }
     
