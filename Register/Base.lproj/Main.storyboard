@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="1079.2" y="133.74384236453201"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="ocL-Mk-Zit">
             <objects>
-                <viewController id="MHN-85-kKI" sceneMemberID="viewController">
+                <viewController id="MHN-85-kKI" customClass="ProfileViewController" customModule="Register" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pOF-QB-YRW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
